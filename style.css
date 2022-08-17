@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+
+
+
+.Main_contaiern {
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.Sub_container {
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    margin: 10px;
+}
+
+
+.small_container {
+    display: grid;
+    grid-template-columns: 10px;
+    grid-template-rows: 10px 10px;
+    width: 716px;
+    height: 670px;
+    /* margin: 10px; */
+}
+
+.Big_container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px;
+    width: 1000px;
+    height: 670px;
+    row-gap: 227px;
+    column-gap: 230px;
+}
+
+.Sub_sub_container {
+    width: 404px;
+    height: 302px;
+    margin: 16px;
+    /* background-color: blue; */
+}
+
+.img {
+    width: 403px;
+    height: 176px;
+    /* background-color: aqua; */
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 403px;
+    height: 127px;
+    /* background-color: blueviolet; */
+}
+
+.img img {
+    width: 216px;
+    height: 166px;
+    margin-left: 69px;
+}
+
+.title {
+    width: 433px;
+    height: 174px;
+    /* background-color: blue; */
+    margin: 68px;
+    /* margin-top: 68px; */
+    /* margin-top: 270px; */
+    margin-top: 286px;
+}
+
+
+.sub_title {
+    width: 388px;
+    height: 200px;
+    /* background-color: crimson; */
+    margin: 90px;
+    margin-top: 90px;
+    margin-top: 387px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 15px;
+    font-size: 17px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    margin: 31px;
+    font-size: 36px;
+}
+.title_container{
+    width: 436px;
+    height: 323px;
+    /* background-color: rgb(132, 247, 0); */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: -41px;
+    margin-bottom: -12px;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 29px;
+    /* margin: 20px;     */
+    margin-top: 42px;
+}
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    text-align: left;
+}
